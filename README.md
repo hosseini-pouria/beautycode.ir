@@ -34,12 +34,10 @@ This repository contains a contact list application. Follow the instructions bel
     ```shell
    cp .env.example .env
 
-6. Configure the GitHub connection in the .env file:
+6. Configure the database connection in the .env file:
 
     ```shell
-   GITHUB_USERNAME=your_username
-   GITHUB_TOKEN=your_personal_access_token
-   GITHUB_BASE_URL=https://api.github.com
+   php artisan migrate
 
 7. Generate an application key:
 
